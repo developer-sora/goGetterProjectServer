@@ -15,7 +15,7 @@ public class DiscussionResponseDto {
     private Long id;                // 게시판 번호
     private String userNickname;    // 유저 닉네임
     private String title;           // 게시판 제목
-    private LocalDate createAt;     // 게시판 등록일
+    private LocalDateTime createAt;     // 게시판 등록일
 
     private Integer readHit;        // 조회수
 
